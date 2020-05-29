@@ -38,6 +38,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  margin-top: 10px;
 }
 
 p.lead {
@@ -141,6 +142,75 @@ p.lead {
     display: block;
   }
 }
+
+.side-icon {
+  color: #fff;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.side-contact {
+  color: #fff;
+  font-size: 1rem;
+  font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.side-contact > a {
+  color: #fff;
+
+}
+
+.side-contact > a:hover {
+  color: lightgrey;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
+
+
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -181,11 +251,11 @@ a:hover {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .projects img {
-  width: 100%;
-  height: 150px;
+  width: 400px;
+  height: 300px;
   border: 3px #fff solid;
   border: 3px #fff solid;
 }
@@ -240,11 +310,63 @@ ul.fa-ul.mb-0 {
   margin-left: 25px;
 }
 
-@media screen and (min-width: 1171px) {
-  .projects {
-    grid-template-columns: repeat(4, 1fr);
-  }
+.item {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.centered-btn {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image:hover {
+  opacity: 0.3;
+}
+
+.btn-display:hover > .centered-btn {
+  opacity: 1;
+}
+
+.btn1 {
+  background-color: #2659ad;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.btn1:hover {
+  color: #fff;
+}
+
+.btn1 > a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn1 > a:hover {
+  color: black;
+}
+
+
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {

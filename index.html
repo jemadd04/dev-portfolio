@@ -32,8 +32,8 @@
   <!-- Side nav bar -->
   <body id="page-top">
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-      id="sideNav"
+    class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    id="sideNav"
     >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">James Maddox</span>
@@ -81,6 +81,10 @@
           </li>
         </ul>
       </div>
+      <i class="fas fa-phone side-icon"></i>
+    <p class="side-contact">502-974-8198</p>
+    <i class="fas fa-at side-icon"></i>
+    <p class="side-contact"><a href="mailto:james.maddox07@gmail.com">james.maddox07@gmail.com</a></p>
     </nav>
     <!-- End of side nav bar-->
 
@@ -91,18 +95,11 @@
         id="about"
       >
         <div class="w-100">
-          <h1 class="mb-0">
-            James
-            <span class="text-primary">Maddox</span>
-          </h1>
+          <h1 class="mb-0">James<span class="text-primary">Maddox</span></h1>
           <div class="subheading mb-5">
-            <a href="mailto:james.maddox07@gmail.com"
-              >james.maddox07@gmail.com</a
-            >
-            · <br class="phone">(502) 974-8198</br>
+            <h3>Junior Software Developer</h3>
           </div>
-          <p class="lead mb-5">
-            Hi, I'm James! I'm a software developer based in Louisville, KY. I have a passion for technology and a desire to learn whenever possible. I completed Udacity's Cloud DevOps Nanodegree program and am currently looking for a role in a cloud devops position or as a full stack developer. Feel free to reach out and connect via LinkedIn or follow me on Twitter!
+          <p class="lead mb-5">Hi, I'm James! I'm a junior software developer based in Louisville, KY. I have a passion for technology and a desire to learn whenever possible. Ever since I can remember, whether it was crafting custom WWE wrestler websites at the age of 10 or using HTML to change my MySpace page in high school, I've always had a passion for developing. I am currently searching for a junior software developer position ideally based remotely or here in Louisville. Feel free to reach out and connect via LinkedIn or follow me on Twitter!
           <br><br>
           <a href="resources/jrdevresume.pdf" target="_blank">View Resume</a>
           </p>
@@ -132,159 +129,185 @@
           <!-- Start of web dev section -->
           <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="resume-content">
-              <h3 class="mb-0">JavaScript</h3>
               <div class="projects">
-                <!-- Start of ImproveMe -->
-                <div class="item"> 
-                  <a href="https://xenodochial-bassi-d0c654.netlify.app/" target="_blank">
-                    <img src="img/projects/covid-snippet.PNG" alt="Project">
-                  </a>
-                  <h3>COVID-19 Tracker</h3>Live COVID-19 data tracker built with React and hosted on Netlify </p>
-                  <a href="https://xenodochial-bassi-d0c654.netlify.app/" class="btn-light" target="_blank">
-                    <i class="fas fa-eye"></i> Project
-                  </a>
-                  <a href="https://github.com/jemadd04/covid19-tracker" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
-                <!-- End of ImproveMe -->
+                <!-- Start of COVID19 project  -->
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/covid-snippet.PNG" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://xenodochial-bassi-d0c654.netlify.app/" target="_blank">
+                          <i class="fas fa-eye"></i> Project
+                        </a>
+                      </button>
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/covid19-tracker" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>COVID-19 Tracker</h3>
+                  <p>Live COVID-19 data tracker built with React and hosted on Netlify </p>
+                </div>
+                <!-- End of COVID19 project  -->
                 <!-- Start of Maddox Recipes -->
-                <div class="item"> 
-                  <a href="https://jemadd04.github.io/maddox-recipes/" target="_blank">
-                    <img src="img/projects/reactrecipe.PNG" alt="Project">
-                  </a>
-                  <h3>Maddox Recipes</h3>Responsive recipe website created with React</p>
-                  <a href="https://jemadd04.github.io/maddox-recipes/" class="btn-light" target="_blank">
-                    <i class="fas fa-eye"></i> Project
-                  </a>
-                  <a href="https://github.com/jemadd04/maddox-recipes" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/reactrecipe.PNG" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://jemadd04.github.io/maddox-recipes/" target="_blank">
+                          <i class="fas fa-eye"></i> Project
+                        </a>
+                      </button>
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/maddox-recipes" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>Maddox Recipes</h3>
+                  <p>Responsive recipe website created with React and the Edamam recipe API</p>
+                </div>
                 <!-- End of Maddox Recipes -->
                 <!-- Start of Little Jimmy's -->
-                <div class="item"> 
-                  <a href="https://jemadd04.github.io/little-jimmys/" target="_blank">
-                    <img src="img/projects/littlejimmys1.jpg" alt="Project">
-                  </a>
-                  <h3>Little Jimmy's</h3>Responsive website created with HTML/CSS & JavaScript</p>
-                  <a href="https://jemadd04.github.io/little-jimmys/" class="btn-light" target="_blank">
-                    <i class="fas fa-eye"></i> Project
-                  </a>
-                  <a href="https://github.com/jemadd04/little-jimmys" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/littlejimmys1.jpg" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://jemadd04.github.io/little-jimmys/" target="_blank">
+                          <i class="fas fa-eye"></i> Project
+                        </a>
+                      </button>
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/little-jimmys" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>Little Jimmy's</h3>
+                  <p>Responsive website created with HTML, CSS and JavaScript</p>
+                </div>
                 <!-- End of Little Jimmy's -->
                 <!-- Start of Github Battle -->
-                <div class="item"> 
-                  <a href="https://compassionate-noyce-ac7acf.netlify.app/" target="_blank">
-                    <img src="img/projects/githubbattle.PNG" alt="Project">
-                  </a>
-                  <h3>Github Battle</h3>React project created with the Github API and hosted on Netlify</p>
-                  <a href="https://compassionate-noyce-ac7acf.netlify.app/" class="btn-light" target="_blank">
-                    <i class="fas fa-eye"></i> Project
-                  </a>
-                  <a href="https://github.com/jemadd04/github-battle" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/githubbattle.PNG" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://compassionate-noyce-ac7acf.netlify.app/" target="_blank">
+                          <i class="fas fa-eye"></i> Project
+                        </a>
+                      </button>
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/github-battle" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>Github Battle</h3>
+                  <p>React project created with the Github API and hosted on Netlify</p>
+                </div>
                 <!-- End of Github Battle -->
                 <!-- Start of MCU Theater -->
-                <div class="item"> 
-                  <a href="https://jemadd04.github.io/mcu-theater-seating/" target="_blank">
-                    <img src="img/projects/mcu-theater.PNG" alt="Project">
-                  </a>
-                  <h3>MCU Theater</h3>Vanilla JS project with a Marvel theme</p>
-                  <a href="https://jemadd04.github.io/mcu-theater-seating/" class="btn-light" target="_blank">
-                    <i class="fas fa-eye"></i> Project
-                  </a>
-                  <a href="https://github.com/jemadd04/mcu-theater-seating" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/mcu-theater.PNG" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://jemadd04.github.io/mcu-theater-seating/" target="_blank">
+                          <i class="fas fa-eye"></i> Project
+                        </a>
+                      </button>
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/mcu-theater-seating" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>MCU Theater</h3>
+                  <p>Vanilla JavaScript theater seating project with a Marvel theme</p>
+                </div>
                 <!-- End of MCU Theater-->
                 <!-- Start of WordBeater -->
-                <div class="item"> 
-                  <a href="https://jemadd04.github.io/word-beater/" target="_blank">
-                    <img src="img/projects/wordbeater.jpg" alt="Project">
-                  </a>
-                  <h3>Word|Beater Game</h3>Vanilla JavaScript speed typing game (no framework)</p>
-                  <a href="https://jemadd04.github.io/word-beater/" class="btn-light" target="_blank">
-                    <i class="fas fa-eye"></i> Project
-                  </a>
-                  <a href="https://github.com/jemadd04/word-beater" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/wordbeater.jpg" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://jemadd04.github.io/word-beater/" target="_blank">
+                          <i class="fas fa-eye"></i> Project
+                        </a>
+                      </button>
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/word-beater" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>WordBeater Game</h3>
+                  <p>Vanilla JavaScript speed typing game</p>
+                </div>
                 <!-- End of WordBeater-->
+                <!-- Udacity capstone  -->
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/cloudcapstone.PNG" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/udacity-cloud-devops-capstone" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>Udacity Capstone - Cloud DevOps</h3>
+                  <p>AWS project that deploys Docker container to a Kubernetes cluster</p>
+                </div>
+                <!-- End of Udacity capstone  -->
+                <!-- Start of dominos -->
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/dominos.jpg" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/dominos-order" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>Dominos API Project</h3>
+                  <p>Python console application that allows you to place order with Dominos API</p>
+                </div>
+                <!-- End of dominos -->
+                <!-- Start of Pixar -->
+                <div class="item">
+                  <div class="btn-display">
+                    <img src="img/projects/pixartheater1.jpg" alt="Project" class="image">
+                    <div class="centered-btn">
+                      <button class="btn1">
+                        <a href="https://github.com/jemadd04/PixarCLProject" target="_blank">
+                          <i class="fab fa-github"></i> Github
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <h3>Pixar Theater</h3>
+                  <p>Console application that persists data to a text file, created with C# and .Net</p>
+                </div>
+                <!-- End of Pixar -->
               </div> 
             </div> 
           </div>
           <!-- End of web dev section -->
-
-          <!-- Start of cloud section -->
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Cloud</h3>
-              <div class="projects">
-                <!-- Start of Udacity capstone -->
-                <div class="item"> 
-                  <a href="https://github.com/jemadd04/udacity-cloud-devops-capstone" target="_blank">
-                    <img src="img/projects/cloudcapstone.PNG" alt="Project">
-                  </a>
-                  <h3>Udacity Capstone</h3>AWS project that deploys Docker container to a Kubernetes cluster</p>
-                  <a href="https://github.com/jemadd04/udacity-cloud-devops-capstone" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
-                <!-- End of Udacity capstone -->
-              </div>
-            </div>
-          </div>
-          <!-- End of cloud section  -->
-
-          <!-- Start of python section -->
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Python</h3>
-              <div class="projects">
-                <!-- Start of dominos -->
-                <div class="item"> 
-                  <a href="https://github.com/jemadd04/dominos-order" target="_blank">
-                    <img src="img/projects/dominos.jpg" alt="Project">
-                  </a>
-                  <h3>Dominos API Project</h3>Python console app that allows you to place order with Dominos API</p>
-                  <a href="https://github.com/jemadd04/dominos-order" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
-                <!-- End of dominos -->
-              </div>
-            </div>
-          </div>
-          <!-- End of python section  -->
-
-          <!-- Start of C# section -->
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">C#</h3>
-              <div class="projects">
-                <!-- Start of Pixar -->
-                <div class="item"> 
-                  <a href="https://github.com/jemadd04/PixarCLProject" target="_blank">
-                    <img src="img/projects/pixartheater1.jpg" alt="Project">
-                  </a>
-                  <h3>Pixar Theater</h3>Console application that persists data to txt file, created with C# and .Net</p>
-                  <a href="https://github.com/jemadd04/PixarCLProject" class="btn-dark" target="_blank">
-                    <i class="fab fa-github"></i> Github
-                  </a>
-                </div> 
-                <!-- End of Pixar -->
-              </div>
-            </div>
-          </div>
-          <!-- End of C# section  -->
       </section>
       <!-- End of project section -->
 
@@ -316,10 +339,6 @@
                 <li>
                   <i class="fa-li fa fa-check"></i>
                   React
-                </li>
-                <li>
-                  <i class="fa-li fa fa-check"></i>
-                  Node.Js
                 </li>
                 <li>
                   <i class="fa-li fa fa-check"></i>
@@ -464,6 +483,25 @@
             class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="resume-content">
+              <h3 class="mb-0">Web Developer | Marketing Specialist</h3>
+              <div class="subheading mb-3">Keller Williams Realty</div>
+              <p>
+                <ul>
+                  <li>Created and maintained various realtor's websites using HTML, CSS, JavaScript, and Wordpress</li>
+                  <li>Managed team leads using various CMS and lead generation systems</li>
+                  <li>Performed duties to assist with marketing, including social media, SEO, and some graphic design</li>
+                </ul>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2013 - April 2017</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
               <h3 class="mb-0">Real Estate Agent</h3>
               <div class="subheading mb-3">Keller Williams Realty</div>
               <p>
@@ -479,24 +517,6 @@
             </div>
           </div>
 
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Marketing Specialist</h3>
-              <div class="subheading mb-3">River Valley Group</div>
-              <p>
-                <ul>
-                  <li>Created marketing materials to stay in touch with existing clients as well as attract new clients</li>
-                  <li>Created team website and managed social media pages</li>
-                  <li>Managed team database that consisted of both potential and existing clients</li>
-                </ul>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2013 - December 2014</span>
-            </div>
-          </div>
         </div>
       </section>
       <!-- End of WORK EXPERIENCE section -->
